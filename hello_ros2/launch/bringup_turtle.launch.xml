@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <!-- 1) turtlesim 기본 노드 실행 -->
+    <node
+        pkg="turtlesim"
+        exec="turtlesim_node"
+        name="turtlesim"
+        output="screen"
+    />
+
+    <!-- 2) turtle1을 원호로 움직이는 node -->
+    <node
+        pkg="hello_ros2"
+        exec="turtle_circle"
+        name="turtle_circle"
+        output="screen"
+    />
+
+    <!-- 3) pose를 실시간으로 모니터링하는 matplotlib 노드 -->
+    <node
+        pkg="hello_ros2"
+        exec="turtle_pose_live_monitor"
+        name="turtle_pose_live_monitor"
+        output="screen"
+    />
+
+</launch>
