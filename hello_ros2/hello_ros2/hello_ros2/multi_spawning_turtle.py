@@ -1,4 +1,4 @@
-from my_first_package_msgs.srv import MultiSpawn 
+from hello_ros2_msgs.srv import MultiSpawn 
 from turtlesim.srv import TeleportAbsolute
 from turtlesim.srv import Spawn
 
