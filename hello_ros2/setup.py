@@ -33,6 +33,9 @@ setup(
             'turtle_circle = hello_ros2.turtle_circle:main',
             'turtle_pose_subscriber = hello_ros2.turtle_pose_subscriber:main',
             'turtle_pose_live_monitor = hello_ros2.turtle_pose_live_monitor:main',
+            'multi_spawning_turtle = hello_ros2.multi_spawning_turtle:main',
+            'turtle1_distance_logger_01 = hello_ros2.turtle1_distance_logger_01:main',
+            'turtle1_distance_logger_02 = hello_ros2.turtle1_distance_logger_02:main',
         ],
     },
 )
