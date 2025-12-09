@@ -36,6 +36,8 @@ setup(
             'multi_spawning_turtle = hello_ros2.multi_spawning_turtle:main',
             'turtle1_distance_logger_01 = hello_ros2.turtle1_distance_logger_01:main',
             'turtle1_distance_logger_02 = hello_ros2.turtle1_distance_logger_02:main',
+            'dist_turtle_action_server = hello_ros2.dist_turtle_action_server:main',
+            
         ],
     },
 )
